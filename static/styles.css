@@ -1,0 +1,49 @@
+.calendar-container {
+    height: 900px;
+    width: 800px;
+    position: relative;
+    clear: both;
+}
+
+.time-container {
+    width: 11%;
+    height: 100%;
+    position: absolute;
+    float: left;
+
+    
+}
+
+.on-the-hour {
+    color: gray;
+    font-size: 26px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    
+}
+
+.half-the-hour {
+    color: darkgray;
+    float: right;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.am-pm {
+    color: darkgray;
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+    margin-top: px;
+    margin-bottom: px;
+}
+
+
+.events-container {
+    width: 88%;
+    height: 100%;
+    background-color: gray;
+    display: inline-block;
+    float: right;
